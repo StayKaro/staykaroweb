@@ -55,7 +55,7 @@ export default function Footer() {
               {[
                 { Icon: Globe, href: "https://staykaro.org", label: "Website" },
                 { Icon: Send,  href: "#",                    label: "Telegram" },
-                { Icon: Mail,  href: "mailto:hello@staykaro.org", label: "Email" },
+                { Icon: Mail,  href: "mailto:staykaroatsales@staykaro.org", label: "Email" },
               ].map(({ Icon, href, label }) => (
                 <a
                    key={label}
@@ -100,12 +100,12 @@ export default function Footer() {
             © {new Date().getFullYear()} StayKaro. All rights reserved.
           </span>
           <a
-            href="mailto:hello@staykaro.org"
+            href="mailto:staykaroatsales@staykaro.org"
             style={{ fontFamily:"var(--font-body)", fontSize:13, color:"var(--color-muted)", textDecoration:"none", transition:"color 0.2s" }}
             onMouseEnter={(e) => { (e.target as HTMLElement).style.color="#F16A6A"; }}
             onMouseLeave={(e) => { (e.target as HTMLElement).style.color="var(--color-muted)"; }}
           >
-            hello@staykaro.org
+            staykaroatsales@staykaro.org
           </a>
         </div>
       </div>
