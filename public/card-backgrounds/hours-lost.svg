@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff1f1"/></linearGradient>
+    <radialGradient id="glow" cx=".76" cy=".22" r=".58"><stop stop-color="#ff4d4d" stop-opacity=".28"/><stop offset="1" stop-color="#ff4d4d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg)"/>
+  <rect width="800" height="420" fill="url(#glow)"/>
+  <g fill="none" stroke="#d91f1f" stroke-opacity=".18">
+    <path d="M120 322h560M120 258h560M120 194h560M120 130h560"/>
+    <path d="M174 76v286M274 76v286M374 76v286M474 76v286M574 76v286"/>
+  </g>
+  <circle cx="612" cy="142" r="62" fill="#fff" fill-opacity=".78" stroke="#d91f1f" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M612 102v42l30 18" fill="none" stroke="#d91f1f" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#d91f1f" fill-opacity=".16">
+    <rect x="142" y="245" width="86" height="44" rx="14"/>
+    <rect x="256" y="205" width="118" height="44" rx="14"/>
+    <rect x="406" y="264" width="92" height="44" rx="14"/>
+  </g>
+</svg>
