@@ -12,7 +12,7 @@ const LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "About Us",   href: "#about"       },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Case Studies", href: "#case-studies" },
-    { label: "Contact",      href: "mailto:hello@staykaro.org" },
+    { label: "Contact",      href: "mailto:staykaroatsales@staykaro.org" },
   ],
   Resources: [
     { label: "Integrations",  href: "#ecosystem"     },
