@@ -27,22 +27,22 @@ const CONTACT = [
   {
     icon: Phone,
     label: "Call Us",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
+    value: "+91 7013987868",
+    href: "tel:+917013987868",
     note: "Mon–Fri, 9am–7pm IST",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
     value: "Chat on WhatsApp",
-    href: "https://wa.me/919876543210",
+    href: "https://wa.me/917013987868",
     note: "Usually replies within 10 min",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "hello@staykaro.ai",
-    href: "mailto:hello@staykaro.ai",
+    value: "salesatstaykaro@staykaro.org",
+    href: "mailto:salesatstaykaro@staykaro.org",
     note: "We reply within 24 hours",
   },
   {
@@ -291,7 +291,7 @@ export default function FinalCTA() {
                       <label style={{ fontFamily: "var(--font-body)", fontSize: 12, fontWeight: 600, color: "#555555", letterSpacing: "0.04em", display: "block", marginBottom: 6 }}>Phone Number *</label>
                       <input
                         type="tel"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 7013987868"
                         value={form.phone}
                         onChange={(e) => setField("phone", e.target.value)}
                         onBlur={() => blur("phone")}

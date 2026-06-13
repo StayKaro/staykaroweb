@@ -146,7 +146,7 @@ function CallerDashboard({ p }: { p: typeof PRODUCTS[0] }) {
             <span style={{ fontSize: 22, fontWeight: 800, color: "#CC1A1A", letterSpacing: "-0.02em", marginLeft: "auto" }}>02:34</span>
           </div>
           <div style={{ fontSize: 14, fontWeight: 700, color: "#111", marginBottom: 2 }}>TechVentures India</div>
-          <div style={{ fontSize: 11, color: "rgba(0,0,0,0.4)", marginBottom: 12 }}>+91 98765 43210 · Rajesh Mehta, CEO</div>
+          <div style={{ fontSize: 11, color: "rgba(0,0,0,0.4)", marginBottom: 12 }}>+91 7013987868 · Rajesh Mehta, CEO</div>
           <div style={{ background: "rgba(204,26,26,0.04)", border: "1px solid rgba(204,26,26,0.1)", borderRadius: 8, padding: "8px 12px", marginBottom: 11 }}>
             <div style={{ fontSize: 9, fontWeight: 700, color: "#CC1A1A", letterSpacing: "0.06em", marginBottom: 3 }}>AI INSIGHT</div>
             <div style={{ fontSize: 11, color: "#111", lineHeight: 1.5 }}>Budget concerns raised. Suggest Enterprise tier with 3-month trial to close today.</div>
