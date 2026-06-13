@@ -41,8 +41,8 @@ const CONTACT = [
   {
     icon: Mail,
     label: "Email",
-    value: "salesatstaykaro@staykaro.org",
-    href: "mailto:salesatstaykaro@staykaro.org",
+    value: "staykaroatsales@staykaro.org",
+    href: "mailto:staykaroatsales@staykaro.org",
     note: "We reply within 24 hours",
   },
   {
