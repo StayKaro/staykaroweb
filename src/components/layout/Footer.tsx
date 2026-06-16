@@ -43,9 +43,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:20 }}>
-              <div style={{ width:36, height:36, borderRadius:10, background:"linear-gradient(135deg,#9B1D28,#F16A6A)", display:"flex", alignItems:"center", justifyContent:"center" }}>
-                <span style={{ color:"#FFFFFF", fontFamily:"var(--font-heading)", fontWeight:800, fontSize:16 }}>S</span>
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="StayKaro Logo" 
+                style={{ height: 40, width: "auto", objectFit: "contain" }} 
+              />
               <span style={{ fontFamily:"var(--font-heading)", fontWeight:700, fontSize:20, color:"var(--color-foreground)" }}>StayKaro</span>
             </div>
             <p style={{ fontFamily:"var(--font-body)", fontSize:14, color:"var(--color-muted)", lineHeight:1.7, maxWidth:260, marginBottom:24 }}>

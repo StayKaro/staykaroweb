@@ -45,13 +45,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2" style={{ textDecoration: "none" }}>
-            <div style={{
-              width: 34, height: 34, borderRadius: 9,
-              background: "linear-gradient(135deg, #9B1D28, #F16A6A)",
-              display: "flex", alignItems: "center", justifyContent: "center",
-            }}>
-              <span style={{ color: "#FFFFFF", fontFamily: "var(--font-heading)", fontWeight: 800, fontSize: 15 }}>S</span>
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="StayKaro Logo" 
+              style={{ height: 40, width: "auto", objectFit: "contain" }} 
+            />
             <span style={{ fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 19, color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>
               StayKaro
             </span>
